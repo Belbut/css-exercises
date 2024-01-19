@@ -26,28 +26,19 @@ img {
   background: #eee;
 }
 
-.content{
+.content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
+  justify-content: center;
+  gap: 52px;
 }
 
-.information{
-  display: flex;
-  justify-content: space-around;
-  gap: 52px;
+.title{
+  margin-bottom: 32px;
 }
 
 .nut,
 .pepper,
-.flower,
-.plant{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.text{
-  text-align: center;
+.plant,
+.flower{
+  width: 200px;
 }
